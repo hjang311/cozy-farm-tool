@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Clash of Critters Cozy Farm event - fruit feeding strategy tool for targeting high-rank Tatari camps">
+  <title>Cozy Farm Feeding Strategy | Clash of Critters</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="app-header">
+    <div class="header-content">
+      <h1 class="app-title">🌾 Cozy Farm Feeding Strategy</h1>
+      <p class="app-subtitle">Clash of Critters — High Rank Tatari Feed Optimizer</p>
+    </div>
+  </header>
+
+  <!-- Priority Feeding Order Bar -->
+  <section class="priority-bar">
+    <div class="priority-bar-inner">
+      <span class="priority-label">Feeding Priority:</span>
+      <div class="priority-steps">
+        <div class="priority-step" data-fruit="Ghost Fruit">
+          <span class="step-number">1</span>
+          <span class="fruit-emoji">👻</span>
+          <span class="step-name">Ghost Fruit</span>
+          <span class="step-reason">6 camps</span>
+        </div>
+        <div class="priority-arrow">→</div>
+        <div class="priority-step" data-fruit="Clocko Fruit">
+          <span class="step-number">2</span>
+          <span class="fruit-emoji">⏰</span>
+          <span class="step-name">Clocko Fruit</span>
+          <span class="step-reason">12 camps</span>
+        </div>
+        <div class="priority-arrow">→</div>
+        <div class="priority-step" data-fruit="Bamboo">
+          <span class="step-number">3</span>
+          <span class="fruit-emoji">🎋</span>
+          <span class="step-name">Bamboo</span>
+          <span class="step-reason">22 camps</span>
+        </div>
+        <div class="priority-arrow">→</div>
+        <div class="priority-step" data-fruit="Dragon Fruit">
+          <span class="step-number">4</span>
+          <span class="fruit-emoji">🐉</span>
+          <span class="step-name">Dragon Fruit</span>
+          <span class="step-reason">25 camps</span>
+        </div>
+        <div class="priority-arrow">→</div>
+        <div class="priority-step" data-fruit="Carrot">
+          <span class="step-number">5</span>
+          <span class="fruit-emoji">🥕</span>
+          <span class="step-name">Carrot</span>
+          <span class="step-reason">28 camps</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fruit Tabs -->
+  <nav class="fruit-tabs" id="fruit-tabs">
+    <!-- Rendered by JS -->
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div id="fruit-content">
+      <!-- Rendered by JS -->
+    </div>
+  </main>
+
+  <!-- Copy Toast -->
+  <div class="copy-toast" id="copy-toast">
+    <span class="toast-icon">✓</span>
+    <span class="toast-text" id="toast-text">Copied!</span>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
