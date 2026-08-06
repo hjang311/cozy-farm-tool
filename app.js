@@ -656,7 +656,7 @@ function getStrategyNote(fruitKey) {
     "Bamboo": "🎋 Second Priority — 8 camps at 80+, 2 at 95+ (13117515=99, 10086034=96). Snipe 10086034 first (low competition in other fruits).",
     "Dragon Fruit": "🐉 Third Priority — 8 camps at 80+, 1 Max 100 (18977827) and 1 90 (13087810). Strong 70-79 pool.",
     "Clocko Fruit": "⏰ Fourth Priority — 9 camps at 80+, including 3 Max 100 camps (10763613, 10327617, 12159168) and 1 98 camp (10409514).",
-    "Carrot": "🥕 Fifth Priority — 12 camps at 80+, most abundant. 3 Max 100 camps (13117515, 18977827) and 1 96 camp (20475501)."
+    "Carrot": "🥕 Fifth Priority — 12 camps at 80+, most abundant. 3 camps at 95+ (13117515=100, 18977827=99, 20475501=96). Maximum fallback options."
   };
   return notes[fruitKey] || "";
 }
